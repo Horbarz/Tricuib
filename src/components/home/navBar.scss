@@ -1,0 +1,29 @@
+@import "../../assets/css/_variables";
+@import "../../assets/css/spacing";
+
+nav a.nav-link{
+    letter-spacing: 0.0325rem;
+    cursor: pointer;
+}
+
+#nav-border{
+    border: 1px solid #707070;
+    margin: 10px;
+    color: #000000;
+}
+
+#free{
+    background-color: $orange--default;
+    margin: 10px;
+    color: #fff;
+}
+
+nav ul li{
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 5rem !important;
+}
