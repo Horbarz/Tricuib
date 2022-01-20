@@ -116,5 +116,9 @@ nav ul{
 
     .nav-menu.nactive{
         background:#FFF8F3;
+        right: 0;
+        opacity: 1;
+        transition: all 0.6s ease;
+        z-index: 1;
     }
 }
