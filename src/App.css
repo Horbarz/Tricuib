@@ -1,3 +1,16 @@
+:root{
+    --app_blue: #0D3D7B;
+    --extra-large-desktop: "only screen and (min-width: 1500px)";
+    --large-desktop: "only screen and (min-width: 1200px) and (max-width: 1499px)";
+    --small-desktop: "only screen and (min-width: 992px) and (max-width: 1199px)";
+    --extra-large-mobile: "only screen and (min-width: 768px) and (max-width: 991px)";  
+    --large-mobile: "only screen and (max-width: 767px)";
+    --small-mobile: "only screen and (max-width: 575px)";
+    --extra-small-mobile: "only screen and (max-width: 479px)";
+}
+   
+
+
 .App{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 100%;
@@ -12,6 +25,8 @@
         "hero_writeup"
         "hero_form";
 }
+
+
 
 @media (min-width: 40em) {
     .App{
@@ -263,8 +278,9 @@ input {
 }
 textarea{
     width: 100%;
-    margin: 12px;
+    margin: 5px auto 5px auto;
     border: 1px solid #707070;
+    padding: 11px;
 }
 ::placeholder{
     color: black;
@@ -272,13 +288,31 @@ textarea{
     font-weight: 600;
     font-size: 0.6rem;
 }
-.orange_question{
+#step_1 .orange_question{
     position: relative;
     color: #FF6803;
     font-size: 1rem;
     float: right;
     margin-top: -45px;
+}
 
+#step_2 .orange_question{
+    position: relative;
+    color: #FF6803;
+    font-size: 1rem;
+    float: right;
+    top: -120px;
+    margin-right: 10px;
+    
+}
+#step_3 .orange_question{
+    position: relative;
+    color: #FF6803;
+    font-size: 1rem;
+    float: right;
+    top: -120px;
+    margin-right: 10px;
+    
 }
 .steps{
     display: flex;
@@ -325,4 +359,127 @@ textarea{
 /* Tab contents */
 .cuib_form #step_1{
     display: none;
+}
+.cuib_form #step_2{
+    display: none;
+}
+.cuib_form #step_3{
+    display: none;
+}
+.final_step{
+    display: none;
+    padding: 11px;
+    width: 100%;
+    margin: 12px;
+    font-size: 1rem;
+    color: black;
+}
+.final_step span{
+    font-weight: 600;
+}
+.final_step p{
+    font-weight: 500;
+    font-style: italic;
+}
+.get_call{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: #FF6803;
+    color: white;
+    padding: 10px;
+    max-height: 80px;
+    justify-content: space-between;
+}
+.get_call h3{
+    font-weight: 600;
+}
+
+::-webkit-input-placeholder {
+    text-transform: uppercase;
+ }
+ 
+ :-moz-placeholder { 
+    text-transform: uppercase;
+ }
+ 
+ ::-moz-placeholder {  
+    text-transform: uppercase;
+ }
+ 
+ :-ms-input-placeholder { 
+    text-transform: uppercase;
+ }
+ label{
+    text-decoration: none;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #707070;
+ }
+ .file_btn{
+    position: relative;
+    color: black;
+    opacity: 1;
+    font-weight: 600;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+ }
+ .file_btn span{
+    float: right;
+    background-color:#FF6803 ;
+    color: white;
+    padding: 20px;  
+ }
+ .final_step_icons{
+    width: 10%;
+    height: 10%;
+    margin: 3px 5px 3px 3px;
+ }
+
+ .get_call>*:nth-child(2){
+    margin-right: auto;
+    padding-left: 0.5rem;
+    margin-top: 0.2rem;
+ }
+.final_step{
+    position: relative;
+    text-align: center;
+}
+.final_img{
+    position: relative;
+}
+ .final_img img{
+    margin-left: 12px;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    
+ }
+.final_img h4{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #FF6803;
+    font-size: 2.5rem;
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+}
+
+.final_img span img{
+    width: 10%;
+    height: 10%;
+    padding: 5px;
+}
+
+.final_img .hh{
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    width: 80%;
+}
+.hh p{
+    color: var(--app_blue);
+    text-align: center;
+}
+.hh p span{
+    font-weight: 600;
 }

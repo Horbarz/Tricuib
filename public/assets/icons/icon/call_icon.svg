@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_765" data-name="Group 765" transform="translate(-3555 -1530)">
+    <g id="Ellipse_129" data-name="Ellipse 129" transform="translate(3555 1530)" fill="none" stroke="#fff" stroke-width="2">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24" fill="none"/>
+    </g>
+    <path id="Icon_awesome-money-bill" data-name="Icon awesome-money-bill" d="M27.134,4.5H1.428A1.428,1.428,0,0,0,0,5.928V20.209a1.428,1.428,0,0,0,1.428,1.428H27.134a1.428,1.428,0,0,0,1.428-1.428V5.928A1.428,1.428,0,0,0,27.134,4.5ZM2.142,19.5V16.639A2.856,2.856,0,0,1,5,19.5Zm0-10V6.642H5A2.856,2.856,0,0,1,2.142,9.5Zm12.139,7.855c-1.972,0-3.57-1.919-3.57-4.284s1.6-4.284,3.57-4.284,3.57,1.918,3.57,4.284S16.252,17.353,14.281,17.353ZM26.42,19.5H23.564a2.856,2.856,0,0,1,2.856-2.856Zm0-10a2.856,2.856,0,0,1-2.856-2.856H26.42Z" transform="translate(3566.192 1542.415)" fill="#fff"/>
+  </g>
+</svg>
